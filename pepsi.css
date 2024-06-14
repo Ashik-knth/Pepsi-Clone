@@ -1,0 +1,577 @@
+.header1 {
+    width: 100%;
+    height: 95px;
+    background-color: #0025ff;
+    position: fixed;
+    display: flex;
+    z-index: 15;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#image1 {
+    width: 60px;
+    height: 60px;
+}
+
+#image1:hover{
+    animation: bouncy linear .5s infinite;
+}
+
+
+@keyframes bouncy {
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(.8);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+.div1 {
+    position: relative;
+    left: 34px;
+    top: 16px;
+
+}
+
+.selector {
+    margin-left: 100px;
+    margin-top: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 116px;
+    font-size: 14px;
+    background-color: #0025ff;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+
+}
+
+selector:focus {
+    background-color: #0025ff;
+    border: 0px;
+}
+
+.text1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 11%;
+    font-size: 14px;
+    background-color: #0025ff;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    left: 61px;
+    top: 36px;
+    height: 36px;
+}
+
+.inner-div-left {
+    width: 50%;
+    height: 95px;
+    display: flex;
+    
+
+}
+
+.inner-div-right-1{
+    width: 48%;
+    height: 95px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.btn-1{
+    width: 35%;
+    height: 33px;
+    border-radius: 15px;
+    background-color: #0025ff;
+    color: white;
+    border-color: white;
+    font-size: 15px;
+    border: 2px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.video-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.wild-cherry {
+    background-image: url("https://www.pepsi.com/en-us/refresh082123/images/wild-cherry/3296846-wild-cherry-2024-digital-rd-3-1920-x-1080@2x.png");
+    height: 75.333vw;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+
+}
+
+.button-1 {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 14px 38px;
+    font-size: xxx-large;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin-bottom: 4pc;
+}
+
+.button-1:hover {
+    background-color: #0025ff;
+    color: white;
+}
+
+
+.photo-container {
+    width: 100%;
+
+
+}
+
+.cherry-image {
+    background-image: url("image/wc-tvc-bg-tablet-vert@2x.png");
+    width: 100%;
+    background-size: cover;
+    height: 75vw;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.text-image {
+    width: 90%;
+    margin-left: 4pc;
+    margin-top: 40px;
+
+}
+
+.card-1 {
+    width: 97%;
+    height: 342px;
+    border: none;
+    border-radius: 26px
+}
+
+
+
+.div-card {
+    width: 100%;
+    height: 348px;
+    margin-top: 2pc;
+}
+
+.card-2 {
+    width: 97%;
+    height: 342px;
+    border-radius: 26px;
+
+}
+
+.div-div-card {
+    width: 100%;
+    display: flex;
+    background-color: rgba(245, 245, 220, 0);
+    height: 455px;
+}
+
+.button-2 {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: system-ui;
+    padding: 13px 135px;
+    margin-top: 3pc;
+    margin-right: 2pc;
+}
+
+.button-3 {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: system-ui;
+    padding: 13px 51px;
+    margin-top: 3pc;
+    margin-right: 1pc;
+
+}
+
+.inner-div1 {
+    width: 49%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: box-shadow 1s ease-in-out;
+    margin-left: 2pc;
+    border-radius: 10px;
+
+
+}
+
+.inner-div2 {
+    width: 51%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 1pc;
+    transition: box-shadow 1s ease-in-out;
+    border-radius: 10px;
+}
+
+.inner-div1:hover {
+    .card-1 {
+        box-shadow: 0px 0px 70px 5px #0025ff;
+    }
+
+    .button-2 {
+        background-color: #0025ff;
+        color: white;
+    }
+}
+
+.inner-div2:hover {
+    .card-2 {
+        box-shadow: 0px 0px 70px 5px #0025ff;
+    }
+
+    .button-3 {
+        background-color: #0025ff;
+        color: white;
+    }
+}
+
+.video-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.footer-1 {
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-1 {
+    height: 4pc;
+}
+
+#text-3 {
+    font-size: xxx-large;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #1636ff;
+}
+
+.container-photo {
+    width: 88%;
+    height: 186px;
+    border: 3px solid;
+    border-color: #0025ff;
+    margin-top: 1pc;
+    display: flex;
+    margin-left: 1pc;
+    transition: transform 1s;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-photo1 {
+    width: 17%;
+    height: 189px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.hov-photo{
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/PEPSI_2023_PR_WCPZS_Cans.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 189px;
+    transition: 0.9s ease-in-out;   
+}
+
+.hov-photo:hover{
+    transform: scale(1.2)  rotate(7deg);
+    opacity: 50%;
+}
+
+
+.footer-photo2 {
+    width: 17%;
+    height: 189px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.hov-photo1{
+
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/PEPSI_2023_PR_Licensing.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 189px;
+    transition: 0.9s ease-in-out;  
+}
+
+.hov-photo1:hover{
+    transform: scale(1.2)  rotate(7deg);
+    opacity: 50%;
+}
+
+.footer-photo3 {
+    width: 17%;
+    height: 189px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.hov-photo2{
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/PEPSI_2023_PR_Logo+Cans.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 189px;
+    transition: 0.9s ease-in-out;  
+}
+
+
+.hov-photo2:hover{
+    transform: scale(1.2)  rotate(7deg);
+    opacity: 50%; 
+}
+
+.footer-photo4 {
+    width: 17%;
+    height: 189px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    
+}
+
+.hov-photo3{
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/PEP_TITAN_R34_LaunchAssets_Burger_EF_v1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 189px;
+    transition: 0.9s ease-in-out; 
+}
+
+.hov-photo3:hover{
+    transform: scale(1.2)  rotate(7deg);
+    opacity: 50%; 
+}
+
+.footer-photo5 {
+    width: 17%;
+    height: 189px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.hov-photo4{
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/PEPSI_2023_PR_Photography_Overhead.png);background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 189px;
+    transition: 0.9s ease-in-out; 
+}
+
+.hov-photo4:hover{
+    transform: scale(1.2)  rotate(7deg);
+    opacity: 50%;   
+}
+
+.footer-photo6 {
+    width: 17%;
+    height: 189px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;   
+}
+
+.hov-photo5{
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/THREADS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 189px;
+    transition: 0.9s ease-in-out; 
+}
+
+
+.hov-photo5:hover{
+    transform: scale(1.2)  rotate(7deg);
+    opacity: 50%;   
+}
+
+.footer {
+    position: relative;
+}
+
+.icon {
+
+    bottom: 8%;
+    margin-left: 7%;
+    position: absolute;
+}
+
+.icon-2 {
+    position: absolute;
+    bottom: 8%;
+    margin-left: 7%;
+}
+
+.end-footer {
+    background-color:#0025ff;
+    display: grid;
+    grid-template-columns: 13% 15% 16% 25% 29%;
+    height: 300px;
+    position: relative;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+
+}
+
+ul a {
+    color: white;
+    font-family: fantasy;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    display: list-item;
+    display: block;
+}
+
+.insta {
+    color: white;
+    font-size: 26px;
+    margin-left: 2pc;
+    margin-top: 4px;
+}
+
+.a-tag {
+    color: white;
+    font-size: 26px;
+    display: block;
+}
+
+
+.pepsi-logo {
+    width: 60%;
+    margin-left: 2pc;
+    
+    }
+    
+    .pepsi-logo:hover{
+        animation: popup cubic-bezier(0.4, 0, 1, 1)  .5s infinite;
+        
+}
+
+.pepsi-log{
+    
+}
+
+@keyframes popup {
+    0%{
+        transform: scale(1);
+    }
+
+    30% {
+        opacity: 1;
+        transform: scale(.80);
+    }
+
+    99% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+li {
+    margin-top: 9px;
+}
+
+.icon-1 {
+    color: white;
+}
+
+.A-tag {
+    color: white;
+    position: absolute;
+    bottom: 1pc;
+    right: 3pc;
+    font-family: fantasy;
+}
+
+.unlist1{
+    display: flex;
+}
